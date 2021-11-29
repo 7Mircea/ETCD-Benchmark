@@ -3,7 +3,7 @@
 
 In order to run this example you have to execute :  
     cd  
-        etcd  
+    etcd  
 First in order to go to home folder for current user and the second for starting a etcd store.
 The program uses at least : 121_555_200B = 121.5MB(aprox) of RAM.
 In order to compile and run the program.  
