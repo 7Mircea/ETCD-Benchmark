@@ -9,9 +9,11 @@ etcd
 First in order to go to home folder for current user and the second for starting a etcd store.
 The program uses at least : 121_555_200B = 121.5MB(aprox) of RAM.
 In order to compile and run the program.  
-        gradle clean  
-        gradle build  
-        gradle run  
+```
+gradle clean  
+gradle build  
+gradle run  
+```
 
 # Testing environment used by author
 
@@ -20,12 +22,18 @@ Linux 20.04, Intel i7, 16GB RAM, java 17.
 # Testing
 
 Before you run the program you have to write this in a terminal:  
-        etcd  
+```
+etcd  
+```
 To check if the etcd store is working correctly:  
-        etcdctl put cheie valoare  
-        etcdctl get cheie  
+```
+etcdctl put cheie valoare  
+etcdctl get cheie  
+```
 If you want to delete:  
-        etcdctl del cheie  
+```
+etcdctl del cheie  
+```
 
 # Result
 
@@ -61,10 +69,10 @@ Inseration time:265803.0s
 Inseration time:266425.0s  
 Mean : 266131.2. Std dev: 2159.1239334507873  
 
-Scalation factor : 405184
-Inseration time:267925.0s
-Inseration time:267258.0s
-Inseration time:268205.0s
-Inseration time:270758.0s
-Inseration time:271942.0s
-Mean : 269217.6. Std dev: 1807.284880698115
+Scalation factor : 405184  
+Inseration time:267925.0s  
+Inseration time:267258.0s  
+Inseration time:268205.0s  
+Inseration time:270758.0s  
+Inseration time:271942.0s  
+Mean : 269217.6. Std dev: 1807.284880698115  
