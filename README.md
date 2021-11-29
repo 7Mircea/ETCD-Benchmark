@@ -35,6 +35,11 @@ If you want to delete:
 etcdctl del cheie  
 ```
 
+## Configuration
+
+You could configure the scale factor(how many lines to be inserted) by changing scaleFactorArr, the number of times the insert operation is repetead by changing repeatNr.  
+You should definitly change the path of the file with values to be inserted.
+
 # Result
 
 Scalation factor : 10000  
